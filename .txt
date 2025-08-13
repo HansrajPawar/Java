@@ -1,0 +1,29 @@
+//Q4. Write a java program to enter two angles of a triangle and find the third angle. 
+
+// Q5. Write a java program to calculate area of an equilateral triangle.
+// Q6. Write a java program to enter marks of five subjects and calculate total marks and percentage.
+
+// Q7. Write a java program to calculate the simple intrest. 
+// Q8. Write a java program to calculate the compound intrest.
+// Q9. Write a java program swap two number using third variable.
+// Q10. Write a java program swap two number without using third variable.
+
+import java.util.Scanner ;
+
+public class FindThirdAngle{
+
+	public static void main(String x[]){
+
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Enter Angle 1 :- ");
+		float a1 = sc.nextFloat();
+
+		System.out.print("Enter Angle 2 :- ");
+		float a2 = sc.nextFloat();
+		
+		float a3 = 180 - (a1+a2) ;	
+		System.out.print("Angle 3 :- %f",a3);
+
+	}
+
+}
