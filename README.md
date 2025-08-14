@@ -95,6 +95,38 @@ This repository contains step-by-step Java programming tasks, each with its prob
 
 ---
 
+## Day 4
+
+1. **Q31. Write a Java program to check whether a number is even or odd.**  
+   [Solution](./EvenOdd.java)
+
+2. **Write a Java program to check whether a triangle is valid or not.**  
+   [Solution](./IsTriangleValid.java)
+
+3. **Write a Java program to check whether a triangle is equilateral , isoscale or scalene.**  
+   [Solution](./TriangleType.java)
+
+4. **Write a Java program to check whether a number is positive , negative or zero.**  
+   [Solution](./CheckNum.java)
+
+5. **Write a Java program to check whether a number is divisible by 5 and 11 or not.**
+   [Solution](./CheckNumDivibility.java)
+
+6. **Write a Java program to check whether character is alphabetic or not.**  
+   [Solution](./RevNum.java) _(or possibly `RevNo.java`; adjust as needed)_
+
+7. **Write a Java program to input cost price and selling price of a product and check profit or loss**  
+   [Solution](./checkProfOrLoss.java)
+
+8. **Write a Java program to check whether a year is leap year or not.**
+   [Solution](./CheckYear.java)
+
+9. **Write a java program to input any alphabet and check whether it is vowel or consonant.**  
+   [Solution](./CheckCharVoworConso.java)
+
+10. **Write a java program to input any character and check whether it is alphabet, digit or special character.**  
+    [Solution](./CheckCharDigi.java)
+
 ## How to Compile & Run
 
 Just run the following commands in your terminal:

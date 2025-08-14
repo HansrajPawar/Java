@@ -1,4 +1,4 @@
-//Q35. Write a Java program to check whether character is alphabetic or not.
+//Q36. Write a Java program to check whether character is alphabetic or not.
 
 
 
