@@ -113,7 +113,7 @@ This repository contains step-by-step Java programming tasks, each with its prob
    [Solution](./CheckNumDivibility.java)
 
 6. **Write a Java program to check whether character is alphabetic or not.**  
-   [Solution](./RevNum.java) _(or possibly `RevNo.java`; adjust as needed)_
+   [Solution](./CheckChar.java)
 
 7. **Write a Java program to input cost price and selling price of a product and check profit or loss**  
    [Solution](./checkProfOrLoss.java)
@@ -127,9 +127,38 @@ This repository contains step-by-step Java programming tasks, each with its prob
 10. **Write a java program to input any character and check whether it is alphabet, digit or special character.**  
     [Solution](./CheckCharDigi.java)
 
+# Day 5
+
+## Questions
+
+1. **Q1. Write a Java program to check whether a number is a Spy Number or not.**  
+   A number is said to be a Spy number if the sum of all its digits is equal to the product of all its digits.  
+   [Solution](./SpyNum.java)
+
+2. **Q2. Write a Java program that takes an alphabet character and toggles its case using ASCII values and operators.**  
+   Example: `a → A`, `Z → z`  
+   [Solution](./TogglesNum.java)
+
+3. **Q3. Write a Java program to calculate the net salary of an employee.**  
+   Input: basic salary, HRA %, DA %, and tax %  
+   [Solution](./NetSalary.java)
+
+4. **Q4. Given two integers, write a Java program to find the quotient and remainder using only arithmetic operators.**  
+   Example: dividend = 20, divisor = 3 → Quotient = 6, Remainder = 2  
+   [Solution](./QuoAndRemainder.java)
+
+5. **Q5. Write a Java program to check whether a number is a multiple of both 3 and 5 using the logical AND (&&) operator.**  
+   Example: 15 → Multiple of both 3 and 5  
+   [Solution](./Multiple3and5.java)
+
+---
+
 ## How to Compile & Run
 
-Just run the following commands in your terminal:
-
+```bash
+# Compile
 javac FileName.java
+
+# Run
 java FileName
+```
