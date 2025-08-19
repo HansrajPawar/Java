@@ -1,0 +1,29 @@
+/*
+Q56. Write a Java expression using arithmetic and assignment operators to calculate net salary if:
+basicSalary = 35000
+taxRate = 12%
+ Find netSalary.
+
+*
+
+
+
+import java.util.Scanner ;
+
+public class NetSalary
+{
+	public static void main(String x[]) {
+		Scanner sc  = new Scanner(System.in);
+		
+		System.out.print("Enter Basic Salary :- ");
+		double bs = sc.nextDouble();
+		
+		System.out.print("Enter Tax :- ");
+		double tax = sc.nextDouble();
+		
+		netSalary = bs - (bs*(tax/100));
+		
+		System.out.print("Net Salary :- "+netSalary);
+	}
+
+}/
