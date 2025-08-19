@@ -197,6 +197,8 @@ This repository contains step-by-step Java programming tasks, each with its prob
     _Given a number, print "Perfect Square" if its square root is an integer, else "Not Perfect Square"._  
     [Solution](./PerfectSquare.java)
 
+---
+
 ### Day 7 Tasks
 
 1. **Absolute Difference Check**  
@@ -206,8 +208,6 @@ This repository contains step-by-step Java programming tasks, each with its prob
    Output → Absolute difference = 13 → Greater than 10  
    [Solution](./AbsDiff.java)
 
----
-
 2. **Find Middle Number**  
    _Write a Java program using the conditional (ternary) operator to find the middle value among three distinct integers `p, q, r`._  
    Example:  
@@ -215,19 +215,13 @@ This repository contains step-by-step Java programming tasks, each with its prob
    Output → Middle Number: 15  
    [Solution](./FindMiddle.java)
 
----
-
 3. **Scholarship Eligibility**  
    _Take percentage and income of a student. If percentage ≥ 75 **AND** income < 200000 → print "Eligible", else "Not Eligible"._  
    [Solution](./EligibleCheck.java)
 
----
-
 4. **Larger Digit (First vs Last)**  
    _Take a three-digit number and print the larger digit among the first and last digit using ternary operator._  
    [Solution](./LargerDigit.java)
-
----
 
 5. **Check Middle Digit vs Sum of First & Last**  
    _Take a three-digit number and print whether the middle digit is greater than the sum of the first and last digits using ternary operator._  
@@ -236,22 +230,21 @@ This repository contains step-by-step Java programming tasks, each with its prob
    Input → 853 → Middle digit = 5 vs (8+3=11) → Not Greater  
    [Solution](./CheckMidDigit.java)
 
----
-
 6. **Net Salary Calculation (Tax Deduction)**  
    _Write a Java expression using arithmetic and assignment operators to calculate net salary if:_
+
    - basicSalary = 35000
    - taxRate = 12%  
      Find netSalary.  
      [Solution](./NetSalaryperTax.java)
-
----
 
 7. **Bonus Calculator (Performance Rating)**  
    _If performance rating > 8 → give 15% bonus_  
    _Else if rating > 5 → give 10% bonus_  
    _Otherwise → no bonus_  
    [Solution](./BonusCalculator.java)
+
+---
 
 ## How to Compile & Run
 
