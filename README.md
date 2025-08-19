@@ -127,9 +127,7 @@ This repository contains step-by-step Java programming tasks, each with its prob
 10. **Write a java program to input any character and check whether it is alphabet, digit or special character.**  
     [Solution](./CheckCharDigi.java)
 
-# Day 5
-
-## Questions
+## Day 5
 
 1. **Q1. Write a Java program to check whether a number is a Spy Number or not.**  
    A number is said to be a Spy number if the sum of all its digits is equal to the product of all its digits.  
@@ -152,6 +150,52 @@ This repository contains step-by-step Java programming tasks, each with its prob
    [Solution](./Multiple3and5.java)
 
 ---
+
+### Day 6 Tasks
+
+1. **Find maximum between three numbers**  
+   [Solution](./FindMax.java)
+
+2. **Check voting eligibility**  
+   _Read the age of a candidate and determine whether he/she is eligible to cast vote._  
+   [Solution](./CheckEligiblity.java)
+
+3. **Check whether two integers are equal or not**  
+   [Solution](./CheckEquiment.java)
+
+4. **Gross Salary Calculation**  
+   _Input basic salary of an employee and calculate Gross salary based on HRA & DA rules:_
+
+   - Basic ≤ 10000 → HRA = 20%, DA = 80%
+   - Basic ≤ 20000 → HRA = 25%, DA = 90%
+   - Basic > 20000 → HRA = 30%, DA = 95%  
+     [Solution](./CalNetSal.java)
+
+5. **Find minimum between two numbers**  
+   [Solution](./FindMin.java)
+
+6. **Find minimum between three numbers**  
+   [Solution](./FindMinThree.java)
+
+7. **Find maximum between two numbers**  
+   [Solution](./FindMaxTwo.java)
+
+8. **Pass/Fail Check**  
+   _Given a student’s score, print "Pass" if it’s ≥ 40, else "Fail"._  
+   [Solution](./CheckPassOrFail.java)
+
+9. **Score Remark (nested ternary)**  
+   _Given a score out of 100, print:_
+
+   - Excellent (≥90)
+   - Good (≥75)
+   - Average (≥50)
+   - Poor (< 50)  
+     [Solution](./ScoreRemark.java)
+
+10. **Perfect Square Check (ternary)**  
+    _Given a number, print "Perfect Square" if its square root is an integer, else "Not Perfect Square"._  
+    [Solution](./PerfectSquare.java)
 
 ## How to Compile & Run
 

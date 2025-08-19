@@ -6,10 +6,9 @@ Input: basic salary, HRA %, DA %, and tax %.
 */
 
 
-
 import java.util.Scanner ;
 
-public class NetSalary{
+public class NetSalary {
 
 	public static void main(String x[]){
 		Scanner sc = new Scanner(System.in);
@@ -29,7 +28,8 @@ public class NetSalary{
 		System.out.print("Enter Tax in % :- ") ;
 		float tax = sc.nextFloat();
 
-		netSalary = bs + (bs*(hra/100)) + (bs*(da/100)) - (bs*(tax/100)) ;
+		float temp  = bs + (bs*(hra/100)) + (bs*(da/100)) ;
+		netSalary = temp - (temp * (tax/100));
 		
 				
 		
